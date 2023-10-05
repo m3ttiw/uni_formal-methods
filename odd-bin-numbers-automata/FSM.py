@@ -1,7 +1,7 @@
 import json
 import sys
 
-with open('Automa2.json', 'r') as f:
+with open('Automa2-fsm.json', 'r') as f:
   fsm = json.load(f)
 
 print(fsm)
