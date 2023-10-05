@@ -24,7 +24,7 @@ for i in s:
     print("next_delta: {} ".format(delta))
     
 if current_state in fsm["F"]:
-    print("{} is odd".format(s))
+    print("{} is a valid string".format(s))
 else:
     print("{} not recognized from the FSM".format(s))
     
